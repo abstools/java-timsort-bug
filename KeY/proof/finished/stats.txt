@@ -1,0 +1,25 @@
+FINISHED PROOFS
+=========================================================
+              Rule Apps Interact  Contract   Loop  Q-inst
+rangeCheck          225	    0        0        0         0
+sort(a,c)           248	    0        1        0         0
+minRunLength	  3.081	    7	     0	      1	        0
+reverseRange      7.558	    0        0        1        12
+Accessible-Clau   8.140    21        0        0         6
+TimSort          18.116    44        1        0        21
+pushRun          26.248    94        0        0        69
+countRunAndMa    44.036     5       84        2         0
+ensureCapacity   44.346	  293	     1	      0	       88
+mergeForceColl   53.814   294        1        1       113
+sort(a,lo,hi,c) 235.632   695       14        1        54
+gallopRight     243.181   398       15        8        36
+mergeAt         279.155   690        4        0     1.064
+gallopLeft      303.716   510       33        8        38
+mergeCollapse   415.133 1.529        7        1       225
+binarySort	536.774	  470	     3	      2	       16
+              --------- -----      ---        -     -----
+              2.219.403 5.050      164       25     1.742
+
+Interact: # of interactive proof steps
+Contract: # of method calls (method contract apps)
+Q-Inst  : Quantifier instantiations
